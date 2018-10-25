@@ -1,0 +1,111 @@
+<mat-horizontal-stepper [linear]="isLinear" #stepper *ngIf="selectPerson">
+        <mat-step [stepControl]="personFormGroup">
+          <form [formGroup]="personFormGroup">
+            <ng-template matStepLabel>Fill out your basic information</ng-template>
+            <mat-form-field>
+              <input type="text" formControlName="firstName" [(ngModel)]="selectPerson.firstName" placeholder="Enter First Name"
+                matInput required>
+            </mat-form-field>
+      
+            <mat-form-field>
+              <input type="text" formControlName="middleName" [(ngModel)]="selectPerson.middleName" placeholder="Enter Middle Name"
+                matInput>
+            </mat-form-field>
+      
+            <mat-form-field>
+              <input type="text" formControlName="lastName" [(ngModel)]="selectPerson.lastName" placeholder="Enter Last Name"
+                matInput required>
+            </mat-form-field>
+      
+            <mat-form-field>
+              <input type="text" formControlName="age" [(ngModel)]="selectPerson.age" placeholder="Age" matInput readonly>
+            </mat-form-field>
+      
+            <mat-form-field>
+              <input matInput [matDatepicker]="birthday" placeholder="Enter Birthday" [max]="todaydate" formControlName="birthday"
+                [(ngModel)]="selectPerson.birthday" readonly required>
+              <mat-datepicker-toggle matSuffix [for]="birthday"></mat-datepicker-toggle>
+              <mat-datepicker #birthday disabled="false"></mat-datepicker>
+            </mat-form-field>
+      
+            <input type="file" name="photo" id="photo" formControlName="photo" (change)="onFileChanged($event)" />
+      
+            <mat-radio-group formControlName="gender" [(ngModel)]="selectPerson.gender">
+              <mat-radio-button value="Male">Male</mat-radio-button>
+              <mat-radio-button value="Female">Female</mat-radio-button>
+            </mat-radio-group>
+      
+            <mat-form-field>
+              <mat-select formControlName="relationshipStatus" [(ngModel)]="selectPerson.relationshipStatus" placeholder="Choose Relationship Status">
+                <mat-option value="Single">Single</mat-option>
+                <mat-option value="Married">Married</mat-option>
+              </mat-select>
+            </mat-form-field>
+      
+            <mat-form-field>
+              <input type="text" formControlName="nationality" [(ngModel)]="selectPerson.nationality" placeholder="Enter Nationality"
+                matInput required>
+            </mat-form-field>
+      
+            <mat-form-field>
+              <input type="text" prefix="+63" formControlName="phoneNumber" [(ngModel)]="selectPerson.phoneNumber"
+                placeholder="Enter Phone Number" mask="(000) 00 00 000" matInput required>
+            </mat-form-field>
+      
+            <mat-form-field>
+              <input type="text" formControlName="religion" [(ngModel)]="selectPerson.religion" placeholder="Enter Religion"
+                matInput required>
+            </mat-form-field>
+      
+            <div class="centerButtons">
+              <button mat-raised-button matStepperNext>Next</button>
+              <button mat-raised-button (click)="okDelete()">Delete</button>
+              <button mat-raised-button (click)="savePerson()">Save</button>
+              <button mat-raised-button (click)="cancelPerson()">Cancel</button>
+            </div>
+          </form>
+        </mat-step>
+      
+      
+        <mat-step [stepControl]="personFormGroup">
+          <form [formGroup]="addressFormGroup">
+            <mat-form-field>
+              <input type="text" formControlName="streetHouseNumBuilding" [(ngModel)]="selectPerson.streetHouseNumBuilding"
+                placeholder="Enter Order Street/House No./Building " matInput required>
+            </mat-form-field>
+      
+            <mat-form-field>
+              <input type="text" formControlName="brgySubdv" [(ngModel)]="selectPerson.brgySubdv" placeholder="Enter Brgy./Subv."
+                matInput>
+            </mat-form-field>
+      
+            <mat-form-field>
+              <input type="text" formControlName="city" [(ngModel)]="selectPerson.city" placeholder="Enter City" matInput required>
+            </mat-form-field>
+      
+            <mat-form-field>
+              <input type="text" formControlName="region" [(ngModel)]="selectPerson.region" placeholder="Enter Region"
+                matInput required>
+            </mat-form-field>
+      
+            <mat-form-field>
+              <input type="number" min="0" formControlName="postalCode" [(ngModel)]="selectPerson.postalCode" placeholder="Enter Postal Code"
+                matInput required>
+            </mat-form-field>
+      
+            <mat-form-field>
+              <input type="number" formControlName="latitude" [(ngModel)]="selectPerson.latitude" placeholder="Enter Latitude"
+                matInput required>
+            </mat-form-field>
+      
+            <mat-form-field>
+              <input type="number" formControlName="longitude" [(ngModel)]="selectPerson.longitude" placeholder="Enter Longitude"
+                matInput required>
+            </mat-form-field>
+
+    
+        </mat-step>
+      </mat-horizontal-stepper>
+
+
+      

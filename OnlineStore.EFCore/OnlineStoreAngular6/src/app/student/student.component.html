@@ -1,0 +1,174 @@
+<p-dataTable #dt [value]="studentList" [paginator]="true" [rows]="10" [pageLinks]="10" [responsive]="true"
+    [totalRecords]="totalRecords" (onLazyLoad)="paginate($event)" [lazy]="true">
+    <p-header>
+        <div class="addHeader">
+            <button type="button" pButton icon="fa fa-plus" (click)="addStudent()"></button>
+            &nbsp; Add Student
+        </div>
+        <div class="searchHeader">
+            <input pInputText type="text" placeholder="Search Student" [(ngModel)]="searchStudentName">
+            <button pButton type="button" icon="fa fa-search" (click)="searchStudent()"></button>
+        </div>
+    </p-header>
+    <p-column>
+        <ng-template pTemplate type="body" let-Student="rowData">
+            <button type="button" pButton icon="fa fa-pencil" (click)="editStudent(Student)"></button>
+            <button type="button" pButton icon="fa fa-trash" (click)="deleteStudent(Student)"></button>
+        </ng-template>
+    </p-column>
+
+    <p-column field="studentID" header="Student ID"></p-column>
+    <p-column field="lastName" header="Last Name"></p-column>
+    <p-column field="firstName" header="First Name"></p-column>
+    <p-column field="email" header="E-mail"></p-column>
+    <p-column field="gpa" header="GPA"></p-column>
+    <p-column field="phone" header="Phone"></p-column>
+    <p-column field="major" header="Major"></p-column>
+    <p-column field="address" header="Address"></p-column>
+    <p-column field="city" header="City"></p-column>
+    <p-column field="zipCode" header="Zip Code"></p-column>
+    <p-column field="religion" header="Religion"></p-column>
+    <p-column field="dateEnrolled" header="Date Enrolled"></p-column>
+    <p-column field="isEnrolled" header="Is Regular?"></p-column>
+</p-dataTable>
+
+
+
+<form [formGroup]="studentForm">
+
+    <p-dialog #dt header="Student" [(visible)]="selectStudent" *ngIf="selectStudent" width="750" height="auto">
+        <div class="ui-g-12 ui-md-6 ui-fluid">
+            <label>First Name</label>
+            <input pInputText id="input-cName" formControlName="firstName" placeholder="Enter First Name" [(ngModel)]="selectStudent.firstName">
+
+            <br /> <br />
+
+            <label>Last Name</label>
+            <input pInputText id="input-cName" formControlName="lastName" placeholder="Enter Last Name" [(ngModel)]="selectStudent.lastName">
+
+            <br /> <br />
+
+            <label>E-mail</label>
+            <input pInputText id="input-cName" formControlName="email" placeholder="Enter E-mail" [(ngModel)]="selectStudent.email">
+
+            <br /> <br />
+
+            <label>GPA</label>
+            <input pInputText id="input-cName" type="number" formControlName="gpa" placeholder="Enter GPA" [(ngModel)]="selectStudent.gpa">
+
+            <br /> <br />
+
+            <label>Phone</label>
+            <input pInputText id="input-cName" formControlName="phone" placeholder="Enter Phone" [(ngModel)]="selectStudent.phone">
+
+            <br /> <br />
+
+
+            <label>Major</label>
+            <input pInputText id="input-cName" formControlName="major" placeholder="Enter Major" [(ngModel)]="selectStudent.major">
+        </div>
+
+        <div class="ui-g-12 ui-md-6 ui-fluid">
+
+            <label>Address</label>
+            <input pInputText id="input-cName" formControlName="address" placeholder="Enter Address" [(ngModel)]="selectStudent.address">
+
+            <br /> <br />
+
+            <label>City</label>
+            <input pInputText id="input-cName" formControlName="city" placeholder="Enter City" [(ngModel)]="selectStudent.city">
+
+            <br /> <br />
+
+            <label>Zip Code</label>
+            <input pInputText id="input-cName" formControlName="zipCode" placeholder="Enter Zip Code" [(ngModel)]="selectStudent.zipCode">
+
+            <br /> <br />
+
+            <label>Religion</label>
+            <input pInputText id="input-cName" formControlName="religion" placeholder="Enter Religion" [(ngModel)]="selectStudent.religion">
+
+            <br /> <br />
+
+            <label>Date Enrolled</label>
+            <p-calendar formControlName="dateEnrolled" placeholder="Enter Date Enrolled" [(ngModel)]="dateEnrolled"
+                formControlName="dateEnrolled" readonlyInput="true"></p-calendar>
+
+
+            <br /> <br />
+
+
+            <!-- <label>Is Enrolled?</label>
+                                <input pInputText id="input-cName" formControlName="isEnrolled" placeholder="Is Enrolled?" [(ngModel)]="selectStudent.isEnrolled"> -->
+            <!-- 
+            <label>Is Enrolled?</label>
+            <div class="ui-g" style="width:250px;margin-bottom:10px">
+                <div class="ui-g-6">
+                    <p-radioButton name="isEnrolled" formControlName="isEnrolled" value="True" label="True" [(ngModel)]="selectStudent.isEnrolled"
+                        inputId="preopt1"></p-radioButton>
+                </div>
+                <div class="ui-g-6">
+                    <p-radioButton name="isEnrolled" formControlName="isEnrolled" value="False" label="False"
+                        [(ngModel)]="isEnrolled" inputId="preopt2"></p-radioButton>
+                </div>
+            </div> -->
+            <!-- Selected Value = {{isEnrolled||'none'}}  -->
+
+
+            <label>Is Regular</label><br>
+            <div class="ui-g-6">
+                <p-radioButton id="isEnrolled" value="True" label="True" formControlName="isEnrolled" [(ngModel)]="selectStudent.isEnrolled"
+                    inputId="input-isEnrolled">
+                </p-radioButton>
+            </div>
+
+            <div class="ui-g-6">
+                <p-radioButton id="isEnrolled" value="False" label="False" formControlName="isEnrolled" [(ngModel)]="selectStudent.isEnrolled"
+                    inputId="input-isEnrolled">
+                </p-radioButton>
+            </div>
+
+            <br />
+
+            <!-- 
+            <p-radioButton value="True" label="True" formControlName="isAvailable" 
+                [(ngModel)]="selectDoctor.isAvailable" inputId="input-isAvailable"></p-radioButton><br />
+            <p-radioButton value="False" label="False" formControlName="isAvailable" 
+                [(ngModel)]="selectDoctor.isAvailable" inputId="input-isAvailable"></p-radioButton>
+            <br /> -->
+
+
+
+
+
+
+
+
+            <!-- [disabled]="!studentForm.valid" -->
+        </div>
+
+        <div class="ui-g-12 ui-md-6 ui-fluid">
+            <button pButton type="button" icon="fa fa-trash" label="Delete" (click)="okDelete()" *ngIf="isDeleteStudent == true"></button>
+
+            <button pButton type="button" icon="fa fa-file" label="Save" (click)="saveStudent()" *ngIf="isDeleteStudent == false"
+                [disabled]="!studentForm.valid"></button>
+
+
+
+        </div>
+        <div class="ui-g-12 ui-md-6 ui-fluid">
+            <button pButton type="button" icon="fa fa-ban" label="Cancel" (click)="cancelStudent()"></button>
+        </div>
+
+
+
+
+
+    </p-dialog>
+
+
+
+
+
+
+</form>

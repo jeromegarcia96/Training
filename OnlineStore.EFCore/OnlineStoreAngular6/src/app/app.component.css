@@ -1,0 +1,36 @@
+
+
+header {
+    font-family: 'Cinzel';
+    color: white;
+
+    background-color:
+#606d7b;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 10px;
+}
+
+#top-menu {
+    float: right;
+    padding-top: 5px;
+}
+
+    #top-menu ul {
+        list-style-type: none;
+    }
+
+        #top-menu ul li a {
+            text-decoration: none;
+            color: #000 !important;
+            font-weight: bold;
+        }
+
+#top-logo {
+    float: left;
+}
+
+body {
+    margin: 0;
+}
+

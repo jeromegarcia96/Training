@@ -1,0 +1,173 @@
+<p-dataTable #dt [value]="personList" [paginator]="true" [rows]="10" [pageLinks]="10" [responsive]="true"
+    [totalRecords]="totalRecords" (onLazyLoad)="paginate($event)" [lazy]="true">
+    <p-header>
+        <div>
+            <button pButton type="button" icon="fa fa-plus" (click)="addPerson()"></button>
+            &nbsp;Add Person
+        </div>
+        <div class="searchHeader">
+            <input pInputText type="text" placeholder="Search First /Last/Full name" [(ngModel)]="searchLastName">
+            <button pButton type="button" icon="fa fa-search" (click)="searchPerson()"></button>
+        </div>
+    </p-header>
+    <p-column>
+        <ng-template pTemplate type="body" let-Person="rowData">
+            <button pButton type="button" icon="fa fa-pencil" (click)="editPerson(Person)"></button>
+            <button pButton type="button" icon="fa fa-trash" (click)="deletePerson(Person)"></button>
+        </ng-template>
+    </p-column>
+    <p-column field="firstName" header="First Name"></p-column>
+    <p-column field="middleName" header="Middle Name"></p-column>
+    <p-column field="lastName" header="Last Name"></p-column>
+    <p-column field="age" header="Age"></p-column>
+    <p-column field="birthday" header="Birthday"></p-column>
+    <p-column field="photo" header="Photo"> </p-column>
+
+    <p-column field="gender" header="Gender"></p-column>
+    <p-column field="relationshipStatus" header="Relationship Status"></p-column>
+    <p-column field="nationality" header="Nationality"></p-column>
+    <p-column field="phoneNumber" header="Phone Number"></p-column>
+    <p-column field="religion" header="Religion"></p-column>
+    <p-column header="Address">
+        <ng-template pTemplate type="body" let-Person="rowData">
+            {{Person.streetHouseNumBuilding + " "
+            + Person.brgySubdv + " "
+            + Person.city + " "
+            + Person.region + " "
+            + Person.country + " "
+            + Person.postalCode + " "
+            + Person.latitude + " "
+            + Person.longitude}}
+        </ng-template>
+    </p-column>
+</p-dataTable>
+
+
+
+<mat-horizontal-stepper [linear]="isLinear" #stepper *ngIf="selectPerson">
+    <mat-step [stepControl]="personFormGroup">
+        <form [formGroup]="personFormGroup">
+            <ng-template matStepLabel>Fill out your basic information</ng-template>
+
+
+            <mat-form-field>
+                <input type="text" formControlName="firstName" [(ngModel)]="selectPerson.firstName" placeholder="Enter First Name"
+                    matInput required ngNativeValidate>
+            </mat-form-field>
+
+            <mat-form-field>
+                <input type="text" formControlName="middleName" [(ngModel)]="selectPerson.middleName" placeholder="Enter Middle Name"
+                    matInput>
+            </mat-form-field>
+
+            <mat-form-field>
+                <input type="text" formControlName="lastName" [(ngModel)]="selectPerson.lastName" placeholder="Enter Last Name"
+                    matInput required ngNativeValidate>
+            </mat-form-field>
+
+            <mat-form-field>
+                <input type="text" formControlName="age" [(ngModel)]="selectPerson.age" placeholder="Age" matInput
+                    readonly>
+            </mat-form-field>
+
+            <mat-form-field>
+                <input matInput [matDatepicker]="birthday" placeholder="Enter Birthday" [max]="todaydate"
+                    formControlName="birthday" [(ngModel)]="selectPerson.birthday" readonly required ngNativeValidate>
+                <mat-datepicker-toggle matSuffix [for]="birthday"></mat-datepicker-toggle>
+                <mat-datepicker #birthday disabled="false"></mat-datepicker>
+            </mat-form-field>
+            <!-- 
+      <input type="file" name="photo" id="photo" formControlName="photo" (change)="onFileChanged($event)" /> -->
+
+            <img [src]="url" height="200"> <br />
+            <input type='file' (change)="onSelectFile($event)">
+
+            <mat-radio-group formControlName="gender" [(ngModel)]="selectPerson.gender" required ngNativeValidate>
+                <mat-radio-button value="Male">Male</mat-radio-button>
+                <mat-radio-button value="Female">Female</mat-radio-button>
+            </mat-radio-group>
+
+            <mat-form-field>
+                <mat-select formControlName="relationshipStatus" [(ngModel)]="selectPerson.relationshipStatus"
+                    placeholder="Choose Relationship Status" required ngNativeValidate>
+                    <mat-option value="Single">Single</mat-option>
+                    <mat-option value="Married">Married</mat-option>
+                    <mat-option value="Widowed">Widowed</mat-option>
+                    <mat-option value="Divorced">Divorced</mat-option>
+                </mat-select>
+            </mat-form-field>
+
+            <mat-form-field>
+                <input type="text" formControlName="nationality" [(ngModel)]="selectPerson.nationality" placeholder="Enter Nationality"
+                    matInput required ngNativeValidate>
+            </mat-form-field>
+
+            <mat-form-field>
+                <input type="text" prefix="+63" formControlName="phoneNumber" [(ngModel)]="selectPerson.phoneNumber"
+                    placeholder="Enter Phone Number" mask="(000) 00 00 000" matInput required ngNativeValidate>
+            </mat-form-field>
+
+            <mat-form-field>
+                <input type="text" formControlName="religion" [(ngModel)]="selectPerson.religion" placeholder="Enter Religion"
+                    matInput>
+            </mat-form-field>
+
+            <div class="centerButtons">
+                <button mat-raised-button matStepperNext>Next</button>
+                <button mat-raised-button (click)="okDelete()" *ngIf="isDeletePerson == true">Delete</button>
+                <button mat-raised-button (click)="cancelPerson()">Cancel</button>
+            </div>
+        </form>
+    </mat-step>
+
+
+    <mat-step [stepControl]="personFormGroup">
+
+        <form [formGroup]="addressFormGroup">
+            <mat-form-field>
+                <input type="text" formControlName="streetHouseNumBuilding" [(ngModel)]="selectPerson.streetHouseNumBuilding"
+                    placeholder="Enter Order Street/House No./Building " matInput>
+            </mat-form-field>
+
+            <mat-form-field>
+                <input type="text" formControlName="brgySubdv" [(ngModel)]="selectPerson.brgySubdv" placeholder="Enter Brgy./Subv."
+                    matInput>
+            </mat-form-field>
+
+            <mat-form-field>
+                <input type="text" formControlName="city" [(ngModel)]="selectPerson.city" placeholder="Enter City"
+                    matInput required ngNativeValidate>
+            </mat-form-field>
+
+            <mat-form-field>
+                <input type="text" formControlName="region" [(ngModel)]="selectPerson.region" placeholder="Enter Region"
+                    matInput required ngNativeValidate>
+            </mat-form-field>
+
+            <mat-form-field>
+                <input type="text" formControlName="country" [(ngModel)]="selectPerson.country" placeholder="Enter Country"
+                    matInput required ngNativeValidate>
+            </mat-form-field>
+
+            <mat-form-field>
+                <input type="number" min="0" formControlName="postalCode" [(ngModel)]="selectPerson.postalCode"
+                    placeholder="Enter Postal Code" matInput required ngNativeValidate>
+            </mat-form-field>
+
+            <mat-form-field>
+                <input type="number" formControlName="latitude" [(ngModel)]="selectPerson.latitude" placeholder="Enter Latitude"
+                    matInput required ngNativeValidate>
+            </mat-form-field>
+
+            <mat-form-field>
+                <input type="number" formControlName="longitude" [(ngModel)]="selectPerson.longitude" placeholder="Enter Longitude"
+                    matInput required ngNativeValidate>
+            </mat-form-field>
+
+            <div class="centerButtons">
+                <button mat-raised-button (click)="savePerson()">Save</button>
+                <button mat-raised-button (click)="cancelPerson()">Cancel</button>
+            </div>
+        </form>
+    </mat-step>
+</mat-horizontal-stepper>

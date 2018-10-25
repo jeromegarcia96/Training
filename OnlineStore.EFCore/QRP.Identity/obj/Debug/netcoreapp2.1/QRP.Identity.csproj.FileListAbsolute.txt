@@ -1,0 +1,143 @@
+D:\OnlineStore.EFCore\QRP.Identity\bin\Debug\netcoreapp2.1\QRP.Identity.deps.json
+D:\OnlineStore.EFCore\QRP.Identity\bin\Debug\netcoreapp2.1\QRP.Identity.runtimeconfig.json
+D:\OnlineStore.EFCore\QRP.Identity\bin\Debug\netcoreapp2.1\QRP.Identity.runtimeconfig.dev.json
+D:\OnlineStore.EFCore\QRP.Identity\bin\Debug\netcoreapp2.1\QRP.Identity.dll
+D:\OnlineStore.EFCore\QRP.Identity\bin\Debug\netcoreapp2.1\QRP.Identity.pdb
+D:\OnlineStore.EFCore\QRP.Identity\bin\Debug\netcoreapp2.1\QRP.Identity.Views.dll
+D:\OnlineStore.EFCore\QRP.Identity\bin\Debug\netcoreapp2.1\QRP.Identity.Views.pdb
+D:\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.csproj.CoreCompileInputs.cache
+D:\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.RazorAssemblyInfo.cache
+D:\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.RazorAssemblyInfo.cs
+D:\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.AssemblyInfoInputs.cache
+D:\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.AssemblyInfo.cs
+D:\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.TagHelpers.input.cache
+D:\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.TagHelpers.output.cache
+D:\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.RazorCoreGenerate.cache
+D:\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Account\LoggedOut.g.cshtml.cs
+D:\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
+D:\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Account\Logout.g.cshtml.cs
+D:\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Consent\Index.g.cshtml.cs
+D:\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Consent\_ScopeListItem.g.cshtml.cs
+D:\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Diagnostics\Index.g.cshtml.cs
+D:\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Grants\Index.g.cshtml.cs
+D:\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+D:\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+D:\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Redirect.g.cshtml.cs
+D:\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationSummary.g.cshtml.cs
+D:\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+D:\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+D:\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.RazorTargetAssemblyInfo.cache
+D:\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.RazorTargetAssemblyInfo.cs
+D:\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.Views.pdb
+D:\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.dll
+D:\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.pdb
+D:\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.csproj.CopyComplete
+D:\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.csprojAssemblyReference.cache
+C:\Users\jgarcia\Downloads\Training20180910-master (1)\Training20180910-master\OnlineStore.EFCore\QRP.Identity\bin\Debug\netcoreapp2.1\QRP.Identity.deps.json
+C:\Users\jgarcia\Downloads\Training20180910-master (1)\Training20180910-master\OnlineStore.EFCore\QRP.Identity\bin\Debug\netcoreapp2.1\QRP.Identity.runtimeconfig.json
+C:\Users\jgarcia\Downloads\Training20180910-master (1)\Training20180910-master\OnlineStore.EFCore\QRP.Identity\bin\Debug\netcoreapp2.1\QRP.Identity.runtimeconfig.dev.json
+C:\Users\jgarcia\Downloads\Training20180910-master (1)\Training20180910-master\OnlineStore.EFCore\QRP.Identity\bin\Debug\netcoreapp2.1\QRP.Identity.dll
+C:\Users\jgarcia\Downloads\Training20180910-master (1)\Training20180910-master\OnlineStore.EFCore\QRP.Identity\bin\Debug\netcoreapp2.1\QRP.Identity.pdb
+C:\Users\jgarcia\Downloads\Training20180910-master (1)\Training20180910-master\OnlineStore.EFCore\QRP.Identity\bin\Debug\netcoreapp2.1\QRP.Identity.Views.dll
+C:\Users\jgarcia\Downloads\Training20180910-master (1)\Training20180910-master\OnlineStore.EFCore\QRP.Identity\bin\Debug\netcoreapp2.1\QRP.Identity.Views.pdb
+C:\Users\jgarcia\Downloads\Training20180910-master (1)\Training20180910-master\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.csprojAssemblyReference.cache
+C:\Users\jgarcia\Downloads\Training20180910-master (1)\Training20180910-master\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.csproj.CoreCompileInputs.cache
+C:\Users\jgarcia\Downloads\Training20180910-master (1)\Training20180910-master\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.RazorAssemblyInfo.cache
+C:\Users\jgarcia\Downloads\Training20180910-master (1)\Training20180910-master\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.RazorAssemblyInfo.cs
+C:\Users\jgarcia\Downloads\Training20180910-master (1)\Training20180910-master\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.AssemblyInfoInputs.cache
+C:\Users\jgarcia\Downloads\Training20180910-master (1)\Training20180910-master\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.AssemblyInfo.cs
+C:\Users\jgarcia\Downloads\Training20180910-master (1)\Training20180910-master\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.TagHelpers.input.cache
+C:\Users\jgarcia\Downloads\Training20180910-master (1)\Training20180910-master\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.TagHelpers.output.cache
+C:\Users\jgarcia\Downloads\Training20180910-master (1)\Training20180910-master\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.RazorCoreGenerate.cache
+C:\Users\jgarcia\Downloads\Training20180910-master (1)\Training20180910-master\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Account\LoggedOut.g.cshtml.cs
+C:\Users\jgarcia\Downloads\Training20180910-master (1)\Training20180910-master\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
+C:\Users\jgarcia\Downloads\Training20180910-master (1)\Training20180910-master\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Account\Logout.g.cshtml.cs
+C:\Users\jgarcia\Downloads\Training20180910-master (1)\Training20180910-master\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Consent\Index.g.cshtml.cs
+C:\Users\jgarcia\Downloads\Training20180910-master (1)\Training20180910-master\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Consent\_ScopeListItem.g.cshtml.cs
+C:\Users\jgarcia\Downloads\Training20180910-master (1)\Training20180910-master\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Diagnostics\Index.g.cshtml.cs
+C:\Users\jgarcia\Downloads\Training20180910-master (1)\Training20180910-master\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Grants\Index.g.cshtml.cs
+C:\Users\jgarcia\Downloads\Training20180910-master (1)\Training20180910-master\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\jgarcia\Downloads\Training20180910-master (1)\Training20180910-master\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\jgarcia\Downloads\Training20180910-master (1)\Training20180910-master\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Redirect.g.cshtml.cs
+C:\Users\jgarcia\Downloads\Training20180910-master (1)\Training20180910-master\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\jgarcia\Downloads\Training20180910-master (1)\Training20180910-master\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationSummary.g.cshtml.cs
+C:\Users\jgarcia\Downloads\Training20180910-master (1)\Training20180910-master\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\jgarcia\Downloads\Training20180910-master (1)\Training20180910-master\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\jgarcia\Downloads\Training20180910-master (1)\Training20180910-master\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.RazorTargetAssemblyInfo.cache
+C:\Users\jgarcia\Downloads\Training20180910-master (1)\Training20180910-master\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.RazorTargetAssemblyInfo.cs
+C:\Users\jgarcia\Downloads\Training20180910-master (1)\Training20180910-master\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.Views.pdb
+C:\Users\jgarcia\Downloads\Training20180910-master (1)\Training20180910-master\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.dll
+C:\Users\jgarcia\Downloads\Training20180910-master (1)\Training20180910-master\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.pdb
+C:\Users\jgarcia\Downloads\Training20180910-master (1)\Training20180910-master\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.csproj.CopyComplete
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\QRP.Identity\bin\Debug\netcoreapp2.1\QRP.Identity.deps.json
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\QRP.Identity\bin\Debug\netcoreapp2.1\QRP.Identity.runtimeconfig.json
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\QRP.Identity\bin\Debug\netcoreapp2.1\QRP.Identity.runtimeconfig.dev.json
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\QRP.Identity\bin\Debug\netcoreapp2.1\QRP.Identity.dll
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\QRP.Identity\bin\Debug\netcoreapp2.1\QRP.Identity.pdb
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\QRP.Identity\bin\Debug\netcoreapp2.1\QRP.Identity.Views.dll
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\QRP.Identity\bin\Debug\netcoreapp2.1\QRP.Identity.Views.pdb
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.csproj.CoreCompileInputs.cache
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.RazorAssemblyInfo.cache
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.RazorAssemblyInfo.cs
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.AssemblyInfoInputs.cache
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.AssemblyInfo.cs
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.TagHelpers.input.cache
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.TagHelpers.output.cache
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.RazorCoreGenerate.cache
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Account\LoggedOut.g.cshtml.cs
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Account\Logout.g.cshtml.cs
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Consent\Index.g.cshtml.cs
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Consent\_ScopeListItem.g.cshtml.cs
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Diagnostics\Index.g.cshtml.cs
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Grants\Index.g.cshtml.cs
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Redirect.g.cshtml.cs
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationSummary.g.cshtml.cs
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.RazorTargetAssemblyInfo.cache
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.RazorTargetAssemblyInfo.cs
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.Views.pdb
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.dll
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.pdb
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.csproj.CopyComplete
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.csprojAssemblyReference.cache
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\QRP.Identity\bin\Debug\netcoreapp2.1\QRP.Identity.deps.json
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\QRP.Identity\bin\Debug\netcoreapp2.1\QRP.Identity.runtimeconfig.json
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\QRP.Identity\bin\Debug\netcoreapp2.1\QRP.Identity.runtimeconfig.dev.json
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\QRP.Identity\bin\Debug\netcoreapp2.1\QRP.Identity.dll
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\QRP.Identity\bin\Debug\netcoreapp2.1\QRP.Identity.pdb
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\QRP.Identity\bin\Debug\netcoreapp2.1\QRP.Identity.Views.dll
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\QRP.Identity\bin\Debug\netcoreapp2.1\QRP.Identity.Views.pdb
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.csproj.CoreCompileInputs.cache
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.RazorAssemblyInfo.cache
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.RazorAssemblyInfo.cs
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.AssemblyInfoInputs.cache
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.AssemblyInfo.cs
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.TagHelpers.input.cache
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.TagHelpers.output.cache
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.RazorCoreGenerate.cache
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Account\LoggedOut.g.cshtml.cs
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Account\Logout.g.cshtml.cs
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Consent\Index.g.cshtml.cs
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Consent\_ScopeListItem.g.cshtml.cs
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Diagnostics\Index.g.cshtml.cs
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Grants\Index.g.cshtml.cs
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Redirect.g.cshtml.cs
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationSummary.g.cshtml.cs
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\QRP.Identity\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.RazorTargetAssemblyInfo.cache
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.RazorTargetAssemblyInfo.cs
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.Views.pdb
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.dll
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.pdb
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\QRP.Identity\obj\Debug\netcoreapp2.1\QRP.Identity.csproj.CopyComplete

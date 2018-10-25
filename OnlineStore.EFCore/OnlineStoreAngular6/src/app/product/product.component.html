@@ -1,0 +1,136 @@
+<!-- <p-dataTable [value]="productList">
+  <p-header>
+      <div>
+          <button type="button" pButton icon="fa fa-plus" (click)="addProduct()"></button>
+          &nbsp; Add Product
+      </div>
+  </p-header>
+  <p-column>
+      <ng-template pTemplate type="body" let-Product="rowData">
+          <button type="button" pButton icon="fa fa-pencil" (click)="editProduct(Product)"></button>
+          <button type="button" pButton icon="fa fa-trash" (click)="deleteProduct(Product)"></button>
+      </ng-template>
+  </p-column> -->
+
+<p-dataTable #dt [value]="productList" [paginator]="true" [rows]="5" [pageLinks]="5" [responsive]="true"
+    [totalRecords]="totalRecords" (onLazyLoad)="paginate($event)" [lazy]="true">
+    <p-header>
+        <div class="addHeader">
+            <button type="button" pButton icon="fa fa-plus" (click)="addProduct()"></button>
+            &nbsp; Add Product
+        </div>
+        <div class="searchHeader">
+            <input pInputText type="text" placeholder="Search Product" [(ngModel)]="searchProductName">
+            <button pButton type="button" icon="fa fa-search" (click)="searchProduct()"></button>
+        </div>
+    </p-header>
+    <p-column>
+        <ng-template pTemplate type="body" let-Product="rowData">
+            <button type="button" pButton icon="fa fa-pencil" (click)="editProduct(Product)"></button>
+            <button type="button" pButton icon="fa fa-trash" (click)="deleteProduct(Product)"></button>
+        </ng-template>
+    </p-column>
+
+    <p-column field="productName" header="Product Name"></p-column>
+    <p-column field="supplierName" header="Supplier ID"></p-column>
+    <p-column field="categoryName" header="Category ID"></p-column>
+    <p-column field="unitsInStock" header="Units in stock"></p-column>
+    <p-column field="unitPrice" header="Unit Price"></p-column>
+    <p-column field="unitsOnOrder" header="Units on order"></p-column>
+    <p-column field="reorderLevel" header="Reorder Level"></p-column>
+    <p-column field="discontinued" header="Active"></p-column>
+
+
+</p-dataTable>
+
+<style>
+    p-column {
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+</style>
+
+<form [formGroup]="productForm">
+    <p-dialog header="Product" [(visible)]="selectProduct" *ngIf="selectProduct">
+        <div class="ui-g-12 ui-md-12 ui-fluid">
+
+
+            <label>Product Name</label>
+            <input pInputText id="input-productName" formControlName="productName" placeholder="Enter Product Name"
+                [(ngModel)]="selectProduct.productName">
+
+            <br />
+
+            <label>Supplier ID</label>
+            <!-- <input pInputText id="input-supplierID" formControlName="supplierID" placeholder="Enter Supplier ID" [(ngModel)]="selectProduct.supplierID">
+         
+          <br/>  -->
+            <br />
+            <p-dropdown [options]="supplierList" [(ngModel)]="selectSupplier" formControlName="supplier" optionLabel="companyName"
+                placeholder="selectSupplier"></p-dropdown>
+            <br />
+
+
+            <label>Category ID</label>
+            <!-- <input pInputText id="input-categoryID" formControlName="categoryID" placeholder="Enter Category ID" [(ngModel)]="selectProduct.categoryID"> -->
+
+            <br />
+            <p-dropdown [options]="categoryList" [(ngModel)]="selectCategory" formControlName="category" optionLabel="categoryName"
+                placeholder="selectCategory"></p-dropdown>
+            <br />
+
+            <label>Units in stock</label>
+            <input pInputText id="input-unitsInStock" formControlName="unitsInStock" placeholder="Enter Units in stock"
+                [(ngModel)]="selectProduct.unitsInStock">
+
+            <br />
+
+            <label>Unit Price</label>
+            <input pInputText id="input-unitPrice" formControlName="unitPrice" placeholder="Enter Unit Price"
+                [(ngModel)]="selectProduct.unitPrice">
+
+            <br />
+
+            <label>Units on order</label>
+            <input pInputText id="input-unitsOnOrder" formControlName="unitsOnOrder" placeholder="Enter Units on order"
+                [(ngModel)]="selectProduct.unitsOnOrder">
+
+            <br />
+
+            <label>Reorder Level</label>
+            <input pInputText id="input-reorderLevel" formControlName="reorderLevel" placeholder="Enter Reorder Level"
+                [(ngModel)]="selectProduct.reorderLevel">
+
+            <br />
+
+            <!-- <label>Active?</label>
+          <input pInputText id="input-discontinued" formControlName="discontinued" placeholder="Enter Discontinued" [(ngModel)]="selectProduct.discontinued">
+         
+          <br/> -->
+
+            <label>Is Active?</label>
+            <div class="ui-g" style="width:250px;margin-bottom:10px">
+                <div class="ui-g-6">
+                    <p-radioButton name="isActive" formControlName="discontinued" value="True" label="True" [(ngModel)]="selectProduct.discontinued"
+                        inputId="opt1"></p-radioButton>
+                </div>
+                <div class="ui-g-6">
+                    <p-radioButton name="isActive" formControlName="discontinued" value="False" label="False"
+                        [(ngModel)]="selectProduct.discontinued" inputId="opt2"></p-radioButton>
+                </div>
+            </div>
+
+            <button pButton type="button" icon="fa fa-trash" label="Delete" (click)="okDelete()" *ngIf="isDeleteProduct == true"></button>
+            <button pButton type="button" icon="fa fa-file" label="Save" (click)="saveProduct()" *ngIf="isDeleteProduct == false"></button>
+            <button pButton type="button" icon="fa fa-ban" label="Cancel" (click)="cancelProduct()"></button>
+        </div>
+
+        <!-- [disabled]="!productForm.valid" -->
+
+    </p-dialog>
+
+
+
+</form>

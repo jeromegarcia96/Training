@@ -1,0 +1,25 @@
+C:\Users\jgarcia\Downloads\Training20180910-master (1)\Training20180910-master\OnlineStore.EFCore\OnlineStore.EFCore.Domain.Models\bin\Debug\netcoreapp2.1\OnlineStore.EFCore.Domain.Models.deps.json
+C:\Users\jgarcia\Downloads\Training20180910-master (1)\Training20180910-master\OnlineStore.EFCore\OnlineStore.EFCore.Domain.Models\bin\Debug\netcoreapp2.1\OnlineStore.EFCore.Domain.Models.dll
+C:\Users\jgarcia\Downloads\Training20180910-master (1)\Training20180910-master\OnlineStore.EFCore\OnlineStore.EFCore.Domain.Models\bin\Debug\netcoreapp2.1\OnlineStore.EFCore.Domain.Models.pdb
+C:\Users\jgarcia\Downloads\Training20180910-master (1)\Training20180910-master\OnlineStore.EFCore\OnlineStore.EFCore.Domain.Models\obj\Debug\netcoreapp2.1\OnlineStore.EFCore.Domain.Models.csproj.CoreCompileInputs.cache
+C:\Users\jgarcia\Downloads\Training20180910-master (1)\Training20180910-master\OnlineStore.EFCore\OnlineStore.EFCore.Domain.Models\obj\Debug\netcoreapp2.1\OnlineStore.EFCore.Domain.Models.AssemblyInfoInputs.cache
+C:\Users\jgarcia\Downloads\Training20180910-master (1)\Training20180910-master\OnlineStore.EFCore\OnlineStore.EFCore.Domain.Models\obj\Debug\netcoreapp2.1\OnlineStore.EFCore.Domain.Models.AssemblyInfo.cs
+C:\Users\jgarcia\Downloads\Training20180910-master (1)\Training20180910-master\OnlineStore.EFCore\OnlineStore.EFCore.Domain.Models\obj\Debug\netcoreapp2.1\OnlineStore.EFCore.Domain.Models.dll
+C:\Users\jgarcia\Downloads\Training20180910-master (1)\Training20180910-master\OnlineStore.EFCore\OnlineStore.EFCore.Domain.Models\obj\Debug\netcoreapp2.1\OnlineStore.EFCore.Domain.Models.pdb
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\OnlineStore.EFCore.Domain.Models\bin\Debug\netcoreapp2.1\OnlineStore.EFCore.Domain.Models.deps.json
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\OnlineStore.EFCore.Domain.Models\bin\Debug\netcoreapp2.1\OnlineStore.EFCore.Domain.Models.dll
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\OnlineStore.EFCore.Domain.Models\bin\Debug\netcoreapp2.1\OnlineStore.EFCore.Domain.Models.pdb
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\OnlineStore.EFCore.Domain.Models\obj\Debug\netcoreapp2.1\OnlineStore.EFCore.Domain.Models.csproj.CoreCompileInputs.cache
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\OnlineStore.EFCore.Domain.Models\obj\Debug\netcoreapp2.1\OnlineStore.EFCore.Domain.Models.AssemblyInfoInputs.cache
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\OnlineStore.EFCore.Domain.Models\obj\Debug\netcoreapp2.1\OnlineStore.EFCore.Domain.Models.AssemblyInfo.cs
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\OnlineStore.EFCore.Domain.Models\obj\Debug\netcoreapp2.1\OnlineStore.EFCore.Domain.Models.dll
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\OnlineStore.EFCore.Domain.Models\obj\Debug\netcoreapp2.1\OnlineStore.EFCore.Domain.Models.pdb
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore\OnlineStore.EFCore.Domain.Models\obj\Debug\netcoreapp2.1\OnlineStore.EFCore.Domain.Models.csprojAssemblyReference.cache
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\OnlineStore.EFCore.Domain.Models\bin\Debug\netcoreapp2.1\OnlineStore.EFCore.Domain.Models.deps.json
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\OnlineStore.EFCore.Domain.Models\bin\Debug\netcoreapp2.1\OnlineStore.EFCore.Domain.Models.dll
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\OnlineStore.EFCore.Domain.Models\bin\Debug\netcoreapp2.1\OnlineStore.EFCore.Domain.Models.pdb
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\OnlineStore.EFCore.Domain.Models\obj\Debug\netcoreapp2.1\OnlineStore.EFCore.Domain.Models.csproj.CoreCompileInputs.cache
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\OnlineStore.EFCore.Domain.Models\obj\Debug\netcoreapp2.1\OnlineStore.EFCore.Domain.Models.AssemblyInfoInputs.cache
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\OnlineStore.EFCore.Domain.Models\obj\Debug\netcoreapp2.1\OnlineStore.EFCore.Domain.Models.AssemblyInfo.cs
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\OnlineStore.EFCore.Domain.Models\obj\Debug\netcoreapp2.1\OnlineStore.EFCore.Domain.Models.dll
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\OnlineStore.EFCore.Domain.Models\obj\Debug\netcoreapp2.1\OnlineStore.EFCore.Domain.Models.pdb

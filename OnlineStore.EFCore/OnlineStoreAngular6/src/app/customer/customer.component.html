@@ -1,0 +1,154 @@
+<!-- <p-dataTable [value]="customerList">
+    <p-header>
+        <div>
+            <button type="button" pButton icon="fa fa-plus" (click)="addCustomer()"></button>
+            &nbsp; Add Customer
+        </div>
+    </p-header>
+    <p-column>
+        <ng-template pTemplate type="body" let-Customer="rowData">
+            <button type="button" pButton icon="fa fa-pencil" (click)="editCustomer(Customer)"></button>
+            <button type="button" pButton icon="fa fa-trash" (click)="deleteCustomer(Customer)"></button>
+        </ng-template>
+    </p-column>
+    <p-column field="customerID" header="Customer ID"></p-column>
+    <p-column field="companyName" header="Company Name"></p-column>
+    <p-column field="contactName" header="Contact Name"></p-column>
+    <p-column field="contactTitle" header="Contact Title"></p-column>
+    <p-column field="address" header="Address"></p-column>
+    <p-column field="city" header="City"></p-column>
+    <p-column field="region" header="Region"></p-column>
+    <p-column field="postalCode" header="Postal code"></p-column>
+    <p-column field="country" header="Country"></p-column>
+    <p-column field="phone" header="Phone"></p-column>
+    <p-column field="fax" header="Fax"></p-column>
+    
+</p-dataTable>
+
+<form [formGroup] = "customerForm">
+    <p-dialog header="Customer" [(visible)]="selectCustomer" *ngIf="selectCustomer">
+        <div class="ui-g-12 ui-md-12 ui-fluid">
+
+
+            <label>Company name</label>
+            <input pInputText id="input-cName" formControlName="companyName" placeholder="Enter Company name" [(ngModel)]="selectCustomer.companyName">
+
+            <br/>
+
+            <label>Contact name</label>
+            <input pInputText id="input-contactName" formControlName="contactName" placeholder="Enter Contact name" [(ngModel)]="selectCustomer.contactName">
+           
+            <br/>
+
+            <label>Contact title</label>
+            <input pInputText id="input-contactTitle" formControlName="contactTitle" placeholder="Enter Contact title" [(ngModel)]="selectCustomer.contactTitle">
+           
+            <br/>
+
+            <label>Address</label>
+            <input pInputText id="input-address" formControlName="address" placeholder="Enter Address" [(ngModel)]="selectCustomer.address">
+           
+            <br/>
+
+            <label>City</label>
+            <input pInputText id="input-city" formControlName="city" placeholder="Enter City" [(ngModel)]="selectCustomer.city">
+           
+            <br/>
+
+            <label>Region</label>
+            <input pInputText id="input-region" formControlName="region" placeholder="Enter Region" [(ngModel)]="selectCustomer.region">
+           
+            <br/>
+
+            <label>Postal code</label>
+            <input pInputText id="input-postalCode" formControlName="postalCode" placeholder="Enter Postal code" [(ngModel)]="selectCustomer.postalCode">
+           
+            <br/>
+
+            <label>Country</label>
+            <input pInputText id="input-country" formControlName="country" placeholder="Enter Country" [(ngModel)]="selectCustomer.country">
+            
+            <br/>
+
+            <label>Phone</label>
+            <input pInputText id="input-phone" formControlName="phone" placeholder="Enter Phone" [(ngModel)]="selectCustomer.phone">
+        
+            <br/>
+
+            <label>Fax</label>
+            <input pInputText id="input-fax" formControlName="fax" placeholder="Enter Fax" [(ngModel)]="selectCustomer.fax">
+        
+    
+            <br/>
+    
+            <button pButton type="button" icon="fa fa-trash" label="Delete" (click)="okDelete()" *ngIf="isDeleteCustomer == true"></button>
+            <button pButton type="button" icon="fa fa-file" label="Save" (click)="saveCustomer()" *ngIf="isDeleteCustomer == false" [disabled]="!customerForm.valid"></button>
+            <button pButton type="button" icon="fa fa-ban" label="Cancel" (click)="cancelCustomer()"></button>
+        </div>
+
+       
+
+    </p-dialog>
+    
+  
+    
+</form> -->
+
+<!-- export interface Customer {
+    customerID: any;
+    companyName: string;
+    contactName: string;
+    contactTitle: string;
+    address: string;
+    city: string;
+    region: string;
+    postalCode: string;
+    country: string;
+    phone: string;
+    fax: string;
+} -->
+
+<table mat-table [dataSource]="customer">
+    <ng-container matColumnDef="companyName">
+        <th mat-header-cell *matHeaderCellDef>Company Name </th>
+        <td mat-cell *matCellDef="let user"> {{customer.companyName}} </td>
+    </ng-container>
+    <ng-container matColumnDef="contactName">
+        <th mat-header-cell *matHeaderCellDef>Contact Name</th>
+        <td mat-cell *matCellDef="let user"> {{customer.contactName}} </td>
+    </ng-container>
+    <ng-container matColumnDef="contactTitle">
+        <th mat-header-cell *matHeaderCellDef> Contact Title </th>
+        <td mat-cell *matCellDef="let user"> {{customer.contactTitle}} </td>
+    </ng-container>
+    <ng-container matColumnDef="address">
+        <th mat-header-cell *matHeaderCellDef>Address</th>
+        <td mat-cell *matCellDef="let user"> {{customer.address}} </td>
+    </ng-container>
+    <ng-container matColumnDef="city">
+        <th mat-header-cell *matHeaderCellDef>City </th>
+        <td mat-cell *matCellDef="let user"> {{customer.city}} </td>
+    </ng-container>
+    <ng-container matColumnDef="region">
+        <th mat-header-cell *matHeaderCellDef> Region</th>
+        <td mat-cell *matCellDef="let user"> {{customer.region}} </td>
+    </ng-container>
+    <ng-container matColumnDef="postalCode">
+        <th mat-header-cell *matHeaderCellDef>Postal Code </th>
+        <td mat-cell *matCellDef="let user"> {{customer.postalCode}} </td>
+    </ng-container>
+    <ng-container matColumnDef="country">
+        <th mat-header-cell *matHeaderCellDef>Country </th>
+        <td mat-cell *matCellDef="let user"> {{customer.country}} </td>
+    </ng-container>
+    <ng-container matColumnDef="phone">
+        <th mat-header-cell *matHeaderCellDef> Phone</th>
+        <td mat-cell *matCellDef="let user"> {{customer.phone}} </td>
+    </ng-container>
+    <ng-container matColumnDef="fax">
+        <th mat-header-cell *matHeaderCellDef> Fax </th>
+        <td mat-cell *matCellDef="let user"> {{customer.fax}} </td>
+    </ng-container>
+
+
+</table>

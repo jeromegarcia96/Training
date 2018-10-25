@@ -1,0 +1,159 @@
+<p-dataTable #dt [value]="courseList" [paginator]="true" [rows]="10" [pageLinks]="10" [responsive]="true"
+    [totalRecords]="totalRecords" (onLazyLoad)="paginate($event)" [lazy]="true">
+    <p-header>
+        <div class="addHeader">
+            <button type="button" pButton icon="fa fa-plus" (click)="addCourse()"></button>
+            &nbsp; Add Course
+        </div>
+        <div class="searchHeader">
+            <input pInputText type="text" placeholder="Search Course" [(ngModel)]="searchCourseName">
+            <button pButton type="button" icon="fa fa-search" (click)="searchCourse()"></button>
+        </div>
+    </p-header>
+    <p-column>
+        <ng-template pTemplate type="body" let-Course="rowData">
+            <button type="button" pButton icon="fa fa-pencil" (click)="editCourse(Course)"></button>
+            <button type="button" pButton icon="fa fa-trash" (click)="deleteCourse(Course)"></button>
+        </ng-template>
+    </p-column>
+
+
+    <p-column field="courseID" header="Course ID"></p-column>
+    <p-column field="courseName" header="Course Name"></p-column>
+    <p-column field="category" header="Category"></p-column>
+    <p-column field="creditUnit" header="Credit Unit"></p-column>
+    <p-column field="creditHours" header="Credit Hours"></p-column>
+    <p-column field="instructionID" header="Instruction ID"></p-column>
+    <p-column field="room" header="Room"></p-column>
+    <p-column field="studentsInClass" header="Students in Class"></p-column>
+    <p-column field="department" header="Department"></p-column>
+    <p-column field="description" header="Description"></p-column>
+    <p-column field="isLecture" header="Is Lecture?"></p-column>
+    <p-column field="isLaboratory" header="Is Laboratory?"></p-column>
+</p-dataTable>
+
+<form [formGroup]="courseForm">
+    <p-dialog header="Course" [(visible)]="selectCourse" *ngIf="selectCourse">
+        <div class="ui-g-12 ui-md-6 ui-fluid">
+
+            <label>Course Name</label>
+            <input pInputText id="input-cName" formControlName="courseName" placeholder="Enter Course Name" [(ngModel)]="selectCourse.courseName">
+
+            <br />
+            <br />
+
+            <label>Category</label>
+            <input pInputText id="input-course" formControlName="category" placeholder="Enter Category" [(ngModel)]="selectCourse.category">
+
+            <br />
+            <br />
+
+            <label>Credit Unit</label>
+            <input type="number" pInputText id="input-creditUnit" formControlName="creditUnit" placeholder="Enter Credit Unit"
+                [(ngModel)]="selectCourse.creditUnit">
+
+            <br />
+            <br />
+
+            <label>Credit Hours</label>
+            <input type="number" pInputText id="input-creditHours" formControlName="creditHours" placeholder="Enter Credit Hours"
+                [(ngModel)]="selectCourse.creditHours">
+
+            <br />
+            <br />
+
+
+            <label>Instruction ID</label>
+            <input pInputText id="input-instructionID" formControlName="instructionID" placeholder="Enter Instruction ID"
+                [(ngModel)]="selectCourse.instructionID">
+
+            <br />
+            <br />
+
+            <label>Room</label>
+            <input pInputText id="input-room" formControlName="room" placeholder="Enter Room" [(ngModel)]="selectCourse.room">
+
+            <br />
+            <br />
+
+
+
+        </div>
+
+        <div class="ui-g-12 ui-md-6 ui-fluid">
+
+            <label>Students in Class</label>
+            <input type="number" pInputText id="input-studentsInClass" formControlName="studentsInClass" placeholder="Enter number of students in class"
+                [(ngModel)]="selectCourse.studentsInClass">
+
+            <br />
+            <br />
+
+            <label>Department</label>
+            <input pInputText id="input-department" formControlName="department" placeholder="Enter Department"
+                [(ngModel)]="selectCourse.department">
+
+            <br />
+            <br />
+
+            <label>Description</label>
+
+
+            <textarea pInputTextArea id="input-description" [rows]=5 placeholder="Enter Description" style="resize:none"
+                formControlName="description" height="100px" [(ngModel)]="selectCourse.description" class="ui-g-12">
+            </textarea>
+
+            <br />
+            <br />
+
+            <!-- <label>Is Lecture?</label>
+            <input pInputText id="input-isLecture" formControlName="isLecture" placeholder="Enter Course Name"
+                [(ngModel)]="selectCourse.isLecture">
+
+            <br />
+            <br /> -->
+
+            <label>Is Lecture?</label>
+            <div class="ui-g" style="width:250px;margin-bottom:10px">
+                <div class="ui-g-6">
+                    <p-radioButton name="isLecture" formControlName="isLecture" value="True" label="True" [(ngModel)]="selectCourse.isLecture"
+                        inputId="preopt1"></p-radioButton>
+                </div>
+                <div class="ui-g-6">
+                    <p-radioButton name="isLecture" formControlName="isLecture" value="False" label="False" [(ngModel)]="selectCourse.isLecture"
+                        inputId="preopt2"></p-radioButton>
+                </div>
+            </div>
+        
+<!-- 
+            <label>Is Laboratory?</label>
+            <input pInputText id="input-isLaboratory" formControlName="isLaboratory" placeholder="Enter Course Name"
+                [(ngModel)]="selectCourse.isLaboratory">  -->
+
+          
+
+            
+
+
+
+        </div>
+
+        <div class="ui-g-12 ui-md-12 ui-fluid">
+            <div class="ui-g-12 ui-md-6 ui-fluid">
+                <button pButton type="button" icon="fa fa-trash" label="Delete" (click)="okDelete()" *ngIf="isDeleteCourse == true"></button>
+                <button pButton type="button" icon="fa fa-file" label="Save" (click)="saveCourse()" *ngIf="isDeleteCourse == false"
+                    [disabled]="!courseForm.valid"></button>
+
+
+            </div>
+
+            <div class="ui-g-12 ui-md-6 ui-fluid">
+                <button pButton type="button" icon="fa fa-ban" label="Cancel" (click)="cancelCourse()"></button>
+            </div>
+        </div>
+
+    </p-dialog>
+
+
+
+</form>

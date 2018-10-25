@@ -1,0 +1,4 @@
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\OnlineStore.EFCore.Console\obj\Debug\netcoreapp2.1\OnlineStore.EFCore.Console.csprojAssemblyReference.cache
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\OnlineStore.EFCore.Console\obj\Debug\netcoreapp2.1\OnlineStore.EFCore.Console.csproj.CoreCompileInputs.cache
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\OnlineStore.EFCore.Console\obj\Debug\netcoreapp2.1\OnlineStore.EFCore.Console.AssemblyInfoInputs.cache
+C:\Users\jgarcia\Desktop\history\OnlineStore.EFCore - Copy\OnlineStore.EFCore.Console\obj\Debug\netcoreapp2.1\OnlineStore.EFCore.Console.AssemblyInfo.cs
